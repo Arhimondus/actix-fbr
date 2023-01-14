@@ -23,7 +23,7 @@ async fn main() -> std::io::Result<()> {
 }
 ```
 
-### src/routest/one1.rs
+### src/routes/one1.rs
 ```rust
 use actix_web::{Responder};
 
@@ -32,7 +32,7 @@ pub async fn get() -> impl Responder {
 }
 ```
 
-### src/routest/one2.rs
+### src/routes/one2.rs
 ```rust
 use actix_web::{Responder};
 
